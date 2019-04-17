@@ -1,0 +1,101 @@
+
+h2{
+    text-align: center;
+    color:rgb(236, 12, 12);
+    font-size: 30px;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: rgb(241, 9, 9) -1px -2px 0.5em; 
+}
+p.premier{
+    text-align: center;
+    color:rgb(236, 12, 12);
+    font-size: 23px; 
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+max-width: 1000px;
+position: relative;
+margin: auto;
+}
+
+/* Caption text */
+.text {
+    border-style: dotted;
+    border-color: brown;
+color: #e00404;
+font-size: 30px;
+padding: 8px 12px;
+position: initial;
+bottom: 8px;
+width: 100%;
+text-align: center;
+}
+
+/* Number text (1/11 etc) */
+.numbertext {
+color: #0e0c0c;
+font-size: 12px;
+padding: 8px 12px;
+position: absolute;
+top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #bbb;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+
+.active {
+background-color: #717171;
+}
+
+/* Fading animation */
+/*.fade {
+-webkit-animation-name: fade;
+-webkit-animation-duration: 6s;
+animation-name: fade;
+animation-duration: 6s;
+}*/
+
+@-webkit-keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+@keyframes fade {
+from {opacity: .4} 
+to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+.text {font-size: 11px}
+}
+
+@media only screen and (min-width: 400px){
+ p.second{
+    float: right;
+    margin-right: 79px;
+    border-style: groove;
+    border-color: blanchedalmond;
+    width: 66%;
+    text-align: justify;
+    color:rgb(15, 14, 14);
+    font-size: 28px; 
+    font-family: Arial, Helvetica, sans-serif;
+ } 
+ }
