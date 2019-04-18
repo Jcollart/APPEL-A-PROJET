@@ -30,13 +30,13 @@ margin: auto;
 .text {
     border-style: dotted;
     border-color: brown;
-color: #e00404;
-font-size: 30px;
-padding: 8px 12px;
-position: initial;
-bottom: 8px;
-width: 100%;
-text-align: center;
+    color: #e00404;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: initial;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
 }
 
 /* Number text (1/11 etc) */
@@ -82,20 +82,43 @@ to {opacity: 1}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 1199px) {
 .text {font-size: 11px}
 }
+@media only sceen and (max-with: 992px) {
+    .second {
+        padding: 20px 0px 0px;
+    }
+    
+}
 
-@media only screen and (min-width: 400px){
- p.second{
-    float: right;
-    margin-right: 79px;
-    border-style: groove;
-    border-color: blanchedalmond;
-    width: 66%;
-    text-align: justify;
-    color:rgb(15, 14, 14);
-    font-size: 28px; 
-    font-family: Arial, Helvetica, sans-serif;
- } 
- }
+    @media screen and (max-width: 1200px) {
+
+        .contenaire,
+        .second,
+        .img-info,
+    
+        input[type=submit] {
+            width: 100%;
+            margin-top: 0;
+            text-align: center;
+    
+        
+        }
+    }
+    .contenaire {
+       display: flex;
+       justify-content: space-between;
+       
+    }
+    
+   .second p{
+        width:50%;
+        text-align: justify;
+        font-size: 25px;
+        margin:auto;
+        padding: auto;
+    }
+    strong {
+        color: rgb(23, 247, 172);
+    }
