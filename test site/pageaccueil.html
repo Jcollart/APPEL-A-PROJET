@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+<script src="demo.js"></script>
+</head>
+<body>
+    <div class="header">
+        <a href="https://www.google.fr" class="logo"><img src="images/simplon.png" alt="logo"><h6>SIMPLON TECHNOLOGIE</h6></img></a>
+          <div class="header-right">
+             <a class="pageaccueil.html" href="#Accueil">Accueil</a>
+             <a href="#Projets">Projets</a>
+             <a href="pageform.html">Formulaire</a>
+             <a href="#Contacts">Contacts</a>
+          </div>
+      </div>
+<br/><br/>
+  <p class="premier">Présentation De</p><br/>
+<h2>Simplon Charleville</h2>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1</div>
+  <img src="img/gest.png " alt="gest" style="width:100%; height: 400px;">
+  <div class="text">Contenaire</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2</div>
+  <img src="img/simplon.jpg" alt="simplon" style="width:100%; height: 400px;">
+  <div class="text">Simplon</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3</div>
+  <img src="img/img4.jpg" alt="img4" style="width:100%; height: 400px;">
+  <div class="text">Appel à Projet</div>
+</div>
+<div class="mySlides fade">
+    <div class="numbertext">4</div>
+    <img src="img/L'équipe.png" alt="L'équipe" style="width:100%; height: 400px;">
+    <div class="text">On est lààààà</div>
+</div>
+<div class="mySlides fade">
+    <div class="numbertext">5</div>
+    <img src="img/img3.jpg" alt="img3" style="width:100%; height: 400px;">
+    <div class="text">Les Simploniens</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">6</div>
+  <img src="img/Notre équipe.jpg" alt="Notre équipe" style="width:100%; height: 400px;">
+  <div class="text">Les Simploniens</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">7</div>
+  <img src="img/Notre équipe1.jpg" alt="Notre équipe1" style="width:100%; height: 400px;">
+  <div class="text">Les Simploniens</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">8</div>
+  <img src="img/Notre équipe2.jpg" alt="Notre équipe2" style="width:100%; height: 400px;">
+  <div class="text">Les Simploniens</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">9</div>
+  <img src="img/Notre équipe3.jpg" alt="Notre équipe3" style="width:100%; height: 400px;">
+  <div class="text">Les Simploniens</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">10</div>
+  <img src="img/Notre équipe4.jpg" alt="Notre équipe4" style="width:100%; height: 400px;">
+  <div class="text">Les Simploniens</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext">11</div>
+  <img src="img/Notre équipe5.jpg" alt="Notre équipe5" style="width:100%; height: 400px;">
+  <div class="text">Les Simploniens</div>
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); // Change image every 4 seconds
+}
+</script>
+<br><br><br>
+<table>
+  <tr>   
+    <td><img src="img/smpl.jpg" alt="smpl" style="margin-left: 79px; text-align: left; width:148%; height: 395px; border-style: groove; border-color: blanchedalmond;"></td>
+    <td><p class="second"><strong>Bienvunue aux apprenant.es de la 2ème promo !</strong><br>
+        Le 11 mars 2019 a débuté la 2ème promo Dev Web et Web mobile de Simplon Charleville. Après 2 journées de recrutement intenses, 22 apprenant.es ont été sélectionné.es pour faire partie de cette nouvelle formation. Ils et elles ont su démontrer leur motivation et la solidité de leur projet professionnel. 
+        //Simplon.co Charleville on considère que le respect des droits des femmes c'est d'abord de leur proposer les formations dans lesquelles elles peuvent s'épanouir tant pro. que perso... c'est ainsi un gage d’émancipation et d'autonomie.</p>
+    </td>
+  </tr>
+    </td>
+</table>
+<br><br><br><br>
+
+
+</body>
+</html> 
