@@ -1,6 +1,6 @@
-* {
+/** {
 	box-sizing: border-box;
-}
+}*/
 
 label {
 	margin-left: 10px;
@@ -243,7 +243,7 @@ footer {
 	margin-right: 15px;
 	align-content: center;
 	margin-top:0px;
-	transform: translate(20%);
+	
 
 }
 
