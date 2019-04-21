@@ -1,6 +1,6 @@
-/** {
+* {
 	box-sizing: border-box;
-}*/
+}
 
 label {
 	margin-left: 10px;
@@ -148,7 +148,7 @@ img {
 /*****************************************
                 Nav-bar et header JEROM
  *****************************************/
-* {
+ * {
 	box-sizing: border-box;
 }
 
@@ -162,10 +162,6 @@ body {
 	background-color: #000000;
 	padding: 20px 10px;
 	border-bottom: 5px solid red;
-	position:fixed;
-
-	width:100%;
-	
 }
 
 .header a {
@@ -190,10 +186,10 @@ body {
 	color: rgb(255, 242, 242);
 }
 
-/*.header a.active {
-	background-color:dodgerblue;
+.header a.active {
+	background-color: dodgerblue;
 	color: white;
-}*/
+}
 
 .header-right {
 	float: right;
@@ -211,11 +207,6 @@ body {
 	}
 }
 
-#imagesaccueil {
-	display:inline-table;
-	
-}				 
-
 footer {
 	background-color: #000000;
 	border-top: 5px solid red;
@@ -226,7 +217,6 @@ footer {
 	color: white;
 	float: none;
 	display: block;
-
 
 }
 
@@ -242,8 +232,6 @@ footer {
 	font-size: 20px;
 	margin-right: 15px;
 	align-content: center;
-	margin-top:0px;
-	
 
 }
 
@@ -337,45 +325,45 @@ to {opacity: 1}
 }
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 1199px) {
-.text {font-size: 11px}
+.contenaire {
+	display: inline-flex;
+	align-content: center;
+	 
 }
-@media only sceen and (max-with: 992px) {
-    .second {
-        padding: 20px 0px 0px;
-    }
-    
+.iminfo{
+ 
+	width: 50%;
+	
 }
+img{
+	width: 100%;
+	height: 100%;
+}
+.second {
+ width: 50%;
+ float:right;
+ padding-left:20px;
+ text-align: justify;
+ font-size: 28px;
+ font-family: 'Times New Roman', Times, serif;    
+}
+strong {
+	color: rgb(248, 56, 8);
+}
+@media screen and (max-width: 760px) {
 
-    @media screen and (max-width: 1200px) {
-
-        .contenaire,
-        .second,
-        .img-info,
-    
-        input[type=submit] {
-            width: 100%;
-            margin-top: 0;
-            text-align: center;
-    
-        
-        }
-    }
-    .contenaire {
-       display: flex;
-       justify-content: space-between;
-       
-    }
-    
-   .second p{
-        width:50%;
-        text-align: justify;
-        font-size: 25px;
-        margin:auto;
-        padding: auto;
-    }
-    strong {
-        color: rgb(23, 247, 172);
+	.contenaire,
+	.img,
+	.iminfo,
+	.second,
+	input[type=submit] {
+		 
+			flex-direction: column;
+			align-items: stretch;
+			width: 100%;
+			margin-top: 0;
+			text-align: center;
+	}
 }
 
 /******************************************************

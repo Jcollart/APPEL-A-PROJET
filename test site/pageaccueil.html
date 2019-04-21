@@ -6,8 +6,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/reset.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/styl.css">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
-<script src="js/demo.js"></script>
+
 </head>
 <body>
     <div class="header">
@@ -16,7 +17,7 @@
              <a  href="pageaccueil.html">Accueil</a>
              <a href="#Projets">Projets</a>
              <a href="pageform.html">Formulaire</a>
-             <a href="#Contacts">Contacts</a>
+             <a href="Contact.html">Contacts</a>
           </div>
       </div>
 <br/><br/>
@@ -98,63 +99,55 @@
   <span class="dot"></span>
   <span class="dot"></span>
 </div>
-<script>
-var slideIndex = 0;
-showSlides();
 
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 4000); // Change image every 4 seconds
-}
-</script>
 <br><br><br>
-<table>
-  <tr>   
-    <td><img src="img/smpl.jpg" alt="smpl" style="margin-left: 79px; text-align: left; width:148%; height: 395px; border-style: groove; border-color: blanchedalmond;"></td>
-    <td><p class="second"><strong>Bienvunue aux apprenant.es de la 2ème promo !</strong><br>
-        Le 11 mars 2019 a débuté la 2ème promo Dev Web et Web mobile de Simplon Charleville. Après 2 journées de recrutement intenses, 22 apprenant.es ont été sélectionné.es pour faire partie de cette nouvelle formation. Ils et elles ont su démontrer leur motivation et la solidité de leur projet professionnel. 
-        //Simplon.co Charleville on considère que le respect des droits des femmes c'est d'abord de leur proposer les formations dans lesquelles elles peuvent s'épanouir tant pro. que perso... c'est ainsi un gage d’émancipation et d'autonomie.</p>
-    </td>
-  </tr>
-    </td>
-</table>
+<div class="contenaire">
+  <div class="iminfo"><img src="img/smpl.jpg" alt="smpl" ></div>
+    <div class="second">
+      <strong>Bienvenue aux apprenant.es de la 2ème promo !</strong><br><br>
+      Le 11 mars 2019 a débuté la 2ème promo Dev Web et Web mobile de Simplon Charleville.
+       Après 2 journées de recrutement intenses, 22 apprenant.es ont été sélectionné.es pour 
+       faire partie de cette nouvelle formation. Ils et elles ont su démontrer leur motivation
+        et la solidité de leur projet professionnel. 
+      <br> Charleville on considère que le respect des droits des femmes c'est d'abord
+       de leur proposer les formations dans lesquelles elles peuvent s'épanouir tant pro. que
+        perso... c'est ainsi un gage d’émancipation et d'autonomie.<br>“ La Fondation Simplon est le bras armé philanthropique qui manquait à Simplon.co pour aller encore plus vite et encore plus loin dans la promotion d’un numérique inclusif, tourné vers les publics et les territoires les plus défavorisés, et au service de l’innovation sociale et de l’intérêt général. ”
+        Frédéric Bardeau, président de la Fondation Simplon
+        
+        Créée en 2015, sous l’égide de la Fondation FACE, la Fondation Simplon promeut un numérique inclusif au service des personnes (jeunes décrocheurs, demandeurs d’emplois, femmes, réfugiés, etc…) et des territoires les plus défavorisés (quartiers prioritaires, zones rurales, etc.).
+    </div>  
+</div>
+    
+</div>
+<br><br><br><br>
+
+<h1>exemples de projets</h1>
 <br><br><br><br>
 <div id="imagesaccueil">
-
+   
     <div id="image1">
       <img src="img/Notre équipe1.jpg" width="25%"; height="25%"; alt=""/>
     </div>
-
+    <br><br>
     <div id="image2">
         <img src="img/Notre équipe2.jpg" width="25%"; height="25%"; alt=""/>
     </div>
-
+    <br><br>
     <div id="image3">
         <img src="img/Notre équipe3.jpg" width="25%"; height="25%"; alt=""/>
     </div>
-
+    <br><br>
     <div id="image4">
         <img src="img/Notre équipe4.jpg" width="25%"; height="25%"; alt=""/>
     </div>
-
+    <br><br><br><br>
 </div>
 <br/><br/>
 <div id="grandeimage"> votre projet </div>
 
 </body>
-
+<script src="js/demo.js"></script>
+<script src="js/slide.js"></script>
 <footer>
     <p>Proposé par: Jérôme, Peter et Amin</p>
     <p>Contact information: <a href="Benoit CARON (Chargé de médiation emploi)">Benoit.CARON@ardennes.cci.fr</a></p>
