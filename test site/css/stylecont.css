@@ -10,11 +10,13 @@ form {
   width: 400px;
   /* Encadré pour voir les limites du formulaire */
   padding: 1em;
+  background-color: #e3e9e9;
   border: 1px solid #CCC;
   border-radius: 1em;
 }
 
 form div + div {
+  
   margin-top: 1em;
 }
 
@@ -61,3 +63,4 @@ button {
      entre les étiquettes et les champs texte */
   margin-left: .5em;
 }
+
