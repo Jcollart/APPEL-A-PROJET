@@ -9,8 +9,6 @@ section {
 
 
 .column {
-    max-height:400px;
-    border-color:5px black;
     margin: 10px;
     flex-grow: 1;
     flex-shrink: 1;
