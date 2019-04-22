@@ -94,14 +94,16 @@ input[type=submit]:hover {
 .textentr {
 	padding-left: 30px;
 	padding-right: 30px;
-	
+
 }
-p{
+
+p {
 	margin-left: 10px;
 }
-.deux{
-	
-	margin-top:20px;
+
+.deux {
+
+	margin-top: 20px;
 }
 
 @media screen and (max-width: 600px) {
